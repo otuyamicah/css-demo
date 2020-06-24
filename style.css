@@ -20,3 +20,28 @@ li{
     font-size: 20px; 
     padding: 20px
 }
+
+#service {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+li:hover{
+
+color: white;
+font-size: 40px;
+}
+
+.li {
+    font-size: 20px;
+    font-style: italic;
+    color: gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p::first-line{
+    font-size: 70px;
+    color: chartreuse;
+
+}
