@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+ul {
+    background-color: cornflowerblue;
+    text-align: center;
+    list-style: none;
+    margin: o; 
+    padding: 0;
+}
+
+li{
+    display: inline-block; 
+    font-size: 20px; 
+    padding: 20px
+}
