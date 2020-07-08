@@ -1,0 +1,15 @@
+body >p{
+    background-color: blue;
+}
+
+article p{
+    background-color: pink;
+}
+
+article ~p{
+    background-color: green;
+}
+
+div >p{
+    background-color: red;
+}
