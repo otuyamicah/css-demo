@@ -1,5 +1,16 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(22, 22, 21);
+    background-color: skyblue;
+}
+
 body >p{
     background-color: blue;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    
 }
 
 article p{
@@ -12,4 +23,69 @@ article ~p{
 
 div >p{
     background-color: red;
+}
+
+
+
+h1::first-line {
+    /* background-color: gray; */
+    font-family: monospace;
+    font-variant: small-caps;
+    color:gray;
+    word-spacing:;
+    vertical-align: 10cm;
+    
+
+}
+
+h1::first-letter {
+    color: tomato;
+    font-size: 200%;
+    font-variant-caps: titling-caps;
+    vertical-align:;
+    
+
+    
+}
+
+h1::before {
+    /* content: url(bm.jpg); */
+    font-size:1em;
+}
+
+h2::first-line {
+    background-color: purple;
+}
+
+p.try::first-letter{
+    color: white;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: xx-large;
+}
+
+::selection{
+    color: chartreuse;
+}
+
+p:hover{
+    color: darkgreen;
+    font-size:large;
+    flex-wrap: wrap;
+    
+}
+
+span{
+    border: groove;
+    border-width: thick;
+    border-radius: 10px;
+    border-color: forestgreen;
+    text-align: center;
+    color: goldenrod;
+    font-size: 50px;
+    background-color: dimgrey;
+    margin: 80px;
+    padding: 10px;
+    font-variant: small-caps;
+    
 }
