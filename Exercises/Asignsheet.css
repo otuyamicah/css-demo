@@ -1,0 +1,88 @@
+/* Examples of psuedo elements */
+h3::first-line {
+    color:blue;
+    font-size: larger;
+    font-variant: small-caps;
+}
+
+h3::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+
+h1::before{
+    content: "*";
+    color: blue;
+}
+
+h1::after {
+    content:"*";
+    color: green;
+}
+
+::selection{
+   background-color:indigo;
+}
+
+/* Examples of CSS atribute selectors */
+[class|="colour"] {
+    background-color: brown;
+}
+
+[class^="colour"] {
+    color: darkgrey;
+}
+
+[class$="modify"] {
+    font-variant: small-caps;
+    color: green;
+}
+
+[class*="mo"] {
+    text-decoration: underline;
+    
+}
+
+input[type="text"] {
+    width: 150px;
+    display: inline;
+    margin-bottom: 10px;
+    background-color: lawngreen;
+    
+}
+
+input[type="button"] {
+    display: inline;
+    width: 100px;
+    margin-left: 10px;
+    
+}
+
+/* Examples of the nth selector(psuedo class) */
+/* Specify a background color for every <p> element that is the second child of its parent,counting from the first child. */
+p:nth-child(2){
+    background: grey
+}
+
+/* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
+P:nth-last-child(n){
+    font-variant: small-caps;
+}
+
+/* odd or even are used as keyword that can be used to match child elements whose insex is odd or even, counting for the last child. */
+P:nth-last-of-type(odd){
+    font-variant: normal;
+}
+
+/* Specify a color for every <p> element that is the even p element of its parent */
+p:nth-of-type(even){
+    color: red;
+}
+/* here, we specify a text decoration for all p element whose index is multiple of 2,counting from the first child. */
+p:nth-child(2n+0){
+    text-decoration: underline;
+
+}
+
+
+
