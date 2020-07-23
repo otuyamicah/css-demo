@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples of CSS atribute selectors</title>
+    <style>
+        [class$="font"] {
+            font-size: xx-large;
+        }
+
+
+        span {
+            color: red;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <h3>CSS [attribute] selector is used to select elements with specified attribute.<br />style specific parts of an
+        element.</h3>
+
+    The <span>[attribute=$"value"]</span> selector is used to select elements whose attribute value ends with specified
+    value.
+
+    this example selects all elements with class atribute value that ends with "font" and it does not have to be a whole
+    word, either alone,like class="font", or followed by a hypen(-),like class="my-font" or words together like class="
+    bigfont"
+
+    <p class="font">paragrahp one.</p>
+    <p>paragrahp two.</p>
+    <p class="colourme">paragrahp three.</p>
+    <p class="my-font">paragrahp four.</p>
+    <p class="bigfont">paragrahp five.</p>
+
+
+
+
+
+
+
+</body>
+
+</html>
