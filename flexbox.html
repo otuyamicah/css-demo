@@ -9,13 +9,15 @@
     .container1{
         display: flex;
         width:auto;
-        height:auto;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+        height:auto;    
+         /* flex-direction: row; */
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
         align-content: center;
         vertical-align: middle;
         text-align: center;
+        flex-flow: row wrap
+        
         
        
         
@@ -52,10 +54,22 @@
 
     }
 
+
+
     p::first-letter{
         font-size: xx-large;
         color: indigo;
         font-variant: small-caps;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: blue;
+        color: cornsilk;
+        text-align: center;
     }
 
 
@@ -105,7 +119,11 @@
         </div>
 
     </div>
-     <p>my name is micah and am trying to learn website development</p>
+     <p class="p">my name is micah and am trying to learn website development</p>
+     
+     <footer class="footer">
+         footer page
+     </footer>
   
 </body>
 </html>
